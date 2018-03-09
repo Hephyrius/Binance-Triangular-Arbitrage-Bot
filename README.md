@@ -5,6 +5,10 @@ Proof-of-concept Python3 Bot that looks for and trades Triangular Arbitrage on t
 
 ### This bot is intended to be a Proof-of-concept. The developer will not be responsible for Any losses that are made are as a result of using this tool. Understand the risks involved and Only invest amounts you are willing to lose.  
 
+## The theory
+
+read a little about triangular arbitrage on [Investopedia](https://www.investopedia.com/terms/t/triangulararbitrage.asp)
+
 ## Requirements:
 [Binance Account](https://www.binance.com/?ref=25062167)
 
