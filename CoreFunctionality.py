@@ -56,7 +56,15 @@ def getMarketData(client, exclude):
         
         if '123456' in i['symbol']:
             tickers.remove(i)
-    
+        
+        if 'RPX' in i['symbol']:
+            tickers.remove(i)
+        
+        if 'VEN' in i['symbol']:
+            tickers.remove(i)
+        
+        if 'HSR' in i['symbol']:
+            tickers.remove(i)
 #        if exclude == True:
 #            if 'BNB' in i['symbol']:
 #                tickers.remove(i)
