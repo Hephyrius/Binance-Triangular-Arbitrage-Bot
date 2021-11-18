@@ -34,4 +34,4 @@ You can adjust the minimum percentage to look for by changing the profits value 
 
 ### Does this make money?
 
-No, it loses money extremely slowly due to hemorrhaging. Trades are executed via market trades, which are known to be worse then placing a limit order. Limit orders cannot be placed on binance when trading in extremely small amounts. The frequency of trading also means that the fees add up quickly. There might also be math errors in the calculations which cause false positives.
+As is, no, it loses slowly due to fees and not calculating the optimal trade amount. But with a few changes and other variables being fixed, it has the bones to do so. Changes like; Mapping all paths that are possible before hand will reduce computation time and picking a cloud instance close the binance api servers. 
